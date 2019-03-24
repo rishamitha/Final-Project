@@ -1,0 +1,102 @@
+
+<html lang="en">
+    <head>
+      <title>Contact Form | Final Projects - DevC JavaScript Development Course</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+      <style>
+        h1 {
+          text-transform: uppercase;
+          font-size: 40pt;
+        }
+  
+        h1, h4, .btn {
+          font-family: 'Raleway';
+        }
+  
+        h2 {
+          font-family: 'Raleway';
+        }
+
+        .form {
+          background-color: white;
+        }
+  
+        .subtitle {
+          color: honeydew;
+        }
+  
+        .masthead {
+          height: 100vh;
+          min-height: 500px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+  
+        .btn-custom {
+          border: #DAB600 1px solid;
+          color: #DAB600;
+          border-radius: 0;
+          background-color: white;
+        }
+  
+        .btn-custom:hover {
+          border: black 1px solid;
+          color: black;
+          background-color: #DAB600;
+        }
+  
+        .bg-black {
+          background-color: #18181A;
+        }
+  
+        .text-yellow {
+          color: #DAB600;
+        }
+  
+        #head {
+          background-image: url('https://images.unsplash.com/photo-1510070009289-b5bc34383727?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+        }
+  
+        #menu {
+          background-color: #EAECE7;
+        }
+      </style>
+    </head>
+  
+    <body>
+      <header class="masthead" id="head">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-md-8 form">
+              <h1>Contact Us</h1>
+              <form action="https://formspree.io/projects.rishamitha@gmail.com" method="POST">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" name="_replyto" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" name="_subject" id="subject" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" class="form-control" rows="7" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning float-right">SEND</button>
+              </form>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </header>
+    </body>
+  </html>

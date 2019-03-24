@@ -1,0 +1,63 @@
+<html lang="en">
+  <head>
+    <title>Gallery | Final Projects - DevC JavaScript Development Course</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+    <meta charset="UTF-8">
+    <style>
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+          <div class="carousel-caption">
+            <h3>Thailand</h3>
+            <p>Cityscape of Bangkok Downtown photo by Andreas Brücker (@andreasbruecker) on Unsplash</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1542371857-763c991f02ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="">
+          <div class="carousel-caption">
+            <h3>FOOD</h3>
+            <p>Cake, plate, bakery and treat HD photo by Anastasia Dulgier (@dulgier) on Unsplash</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1542372177-002ea9732b17?ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80" alt="">
+          <div class="carousel-caption">
+            <h3>SOUVENIR</h3>
+            <p>Souvenir, travel, souvenir shop and shop HD photo by Anastasia Dulgier (@dulgier) on Unsplash</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+      $('.carousel').carousel();
+    </script>
+  </body>
+</html>
